@@ -1,0 +1,79 @@
+body {
+    margin: 8px;
+    display: block;
+    background-color: aqua;
+}
+
+#home {
+    align-content: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+
+header {
+    display: inline;
+    width: 100%;
+}
+
+
+#mainHeading {
+    text-align: center;
+    color: red;
+}
+
+.funParagraph {
+    text-align: center;
+    color: green;
+    
+}
+
+
+
+
+#recipeBox {
+    display: grid;
+    margin: auto;
+    width: 50%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    flex-basis: auto;
+
+}
+
+.ingredients {
+    padding-left: 20px;
+    
+}
+
+#applePie {
+    height: auto;
+    display: grid;
+}
+img {
+    position: relative;
+    right: -50px;
+    padding-top: 30px;
+}
+#brownies {
+    height: auto;
+    display: grid;
+    margin-top: 20px;
+    
+}
+
+.tab {
+   background-color: bisque; 
+   padding-left: 15px;
+   width: 25%;
+   border-radius: 20% 20% 0 0;
+}
+
+
+

@@ -2,26 +2,21 @@
 <html>
    <head>
       <link href="./styles.css" rel="stylesheet"/>
+      <title>Eric's Baking Blog</title>
    </head>
    <body>
       <header>
-         <h1>Recipe Webpage</h1>
-         <nav>
-            <ul>
-               <li>Home</li>
-               <li>Recipes</li>
-            </ul>
-         </nav>
+         <h1 id="mainHeading">Eric's Baking Blog</h1>
       </header>
       <main>
          <div id = "home">
-            <h3>Hello</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
+            <h2>Hello and Welcome to my Blog!</h2>
+            <p id="testP" class="funParagraph">
+               I have always enjoyed baking. Some of my favorite childhood memories are of spending time in the kitchen with my mom and uncle. I particularly enjoyed the holidays when we would gather to bake confections as gift for friends and family. 
             </p>
          </div>
-         <div id="recipe-box">
-            <article id = "apple-pie">
+         <div id="recipeBox">
+            <article id = "applePie">
                <div class="tab">
                   <h3>Apple Pie</h3>
                </div>
@@ -77,12 +72,22 @@
                         </tbody>
                      </table>
                   </div>
-                  <div>
+                  <div id="applePieImg">
                      <img src="./images/apple-pie.jpg" alt="Apple Pie" height="200px"/>
                   </div>
                   <div class ="instructions">
-                     <p>jdkfjldfkdlfkldsflksdflk\
-                        n ldfldfdjfoisdfosfdkf/n dhfkhfdhfdf dfsdfsdfsds/n</p>
+                     <ol>
+                        <li>Preheat oven to 425 &deg;F. Prepare the pan and bottom crust.</li>
+                        <li> Melt butter in a pan. Add flour and cook for 2 minutes.</li>
+                        <li>Mix the water and cornstarch. Add to pan.</li>
+                        <li>Add the sugars and spices. Bring to a boil. Reduce heat and simmer for 10 minutes.</li>
+                        <li>Combine apples and sauce. Pour into prepared pie pan.</li>
+                        <li>Add top crust and bake for 25 minutes</li>
+                        <li>Remove from oven. Let cool and enjoy!</li>
+                     </ol>
+                     
+                        
+                     
                   </div>
                   
                </div>
@@ -147,7 +152,13 @@
                      <img src="./images/brownies.jpg" alt="Brownies" height="120px"/>
                   </div>
                   <div class ='instructions'>
-                     <p >jdkfjldfkdlfkldsflksdflk/n ldfldfdjfoisdfosfdkf/n dhfkhfdhfdf dfsdfsdfsds/n</p>
+                     <ol>
+                        <li>Preheat oven to 350&deg;F. Grease a 9x13 pan. </li>
+                        <li>Melt butter and half the chocolate bar. Once melted, whisk in brown sugar.</li>
+                        <li>Add eggs and vanilla. Mix. Add everything else.</li>
+                        <li>Spread into prepared pan and bake for 30 minutes</li>
+                        <li>Remove from oven. Let cool and enjoy!</li>
+                     </ol>
                   </div>
                   
                </div>  
@@ -156,6 +167,8 @@
             </article>
          </div>
       </main>
-      <footer></footer>
+      <footer>
+         <h2>Happy Baking!</h2>
+      </footer>
    </body>
 </html>
